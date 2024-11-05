@@ -1,0 +1,122 @@
+.nav-bar {
+    background-color: rgba(20, 20, 20, 0.804);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0;
+    z-index: 1030;
+    width: 100vw;
+    padding: 1rem; 
+}
+.list {
+    display: flex;
+    gap: 20px;
+    padding-right: 0;
+    margin-right: 40px;
+}
+.list a {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 15px;
+    z-index: 1020;
+}
+.logo-image img{
+   width: 250px;
+   height: 45px;
+   padding: 1px 40px;
+}
+.list span{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 69.3rem;
+    width: 95px;
+    height:44%;
+    background: linear-gradient(45deg, #121010e6, #43f01c73);
+    border-radius: 8px;
+    transition: .5s;
+}
+.list a:nth-child(1):hover~span{
+   left: 1110px;
+}
+.list a:nth-child(2):hover~span{
+    left: 1200px;
+}
+.list a:nth-child(3):hover~span{
+    left: 1298px;
+}
+.list a:nth-child(4):hover~span{
+    left: 1396px;
+}
+/* Tablet view */
+@media (max-width: 1024px) {
+    .nav-bar {
+      width: 100%;
+      padding: 0.8rem;
+      justify-content: space-between;
+    }
+  
+    .logo-image img {
+      width: 150px;
+      height: auto;
+      padding: 0;
+    }
+  
+    .list {
+      gap: 15px;
+      /* margin-right: 20px; */
+    }
+  
+    .list a {
+      font-size: 0.9em;
+      padding: 0 10px;
+    }
+  
+    .list span {
+        display: none;
+      /* top: 18px;
+      left: auto; 
+      width: 85px; */
+    }
+  }
+  
+  /* Mobile view */
+  @media (max-width: 768px) {
+    .nav-bar {
+      flex-direction: row;
+      align-items: center;
+      padding: 0.1rem;
+    }
+  
+    .logo-image img {
+      width: 100px;
+      padding: 10px;
+      margin-bottom: 1px;
+    }
+  
+    .list {
+      flex-direction: row;
+      align-items: left;
+      margin-bottom: 10px;
+      gap: 4px;
+      /* margin-right: 20px; */
+    }
+  
+    .list a {
+      font-size: 0.6em;
+      color: rgb(199, 200, 202);
+      padding-right: 5px;
+    }
+  
+    .list span {
+      display: none;
+    }
+    .list:hover{
+        color: rgb(44, 253, 114);
+    }
+  }
+  

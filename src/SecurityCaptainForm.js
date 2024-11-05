@@ -4,7 +4,7 @@ import './SecurityCaptainForm.css';
 function SecurityCaptainForm() {
     return (
         <>
-        <h1>Apply to become a Security Captain</h1>
+        <h1 className='header'>Apply to become a Security Captain</h1>
         <div className="form-container">
             
             <form>

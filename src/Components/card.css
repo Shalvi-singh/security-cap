@@ -1,0 +1,152 @@
+.card {
+    background-color: rgba(33, 34, 34, 0.683);
+    width: 65%;
+    /* height: 100%; */
+    position: relative;
+    padding: 20px;
+    top: -1140px;
+    left: 270px;
+    padding-bottom: 80px;
+    border-radius: 20px;
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+  .card:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px #08cb08, 0 0 10px #08cb08, 0 0 15px #08cb08;
+  }
+  h2 {
+    font-size: 28px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    /* text-shadow: 0 5px 5px #807e7e5b, 0 10px 10px #ffffff8d, 0 1px 1px #d8e7e044, 0 1px 1px #c8ebd332; */
+  }
+  .gradient-line {
+    position: absolute;
+    bottom: 420px;
+    left: 170px;
+    width: 70%;
+    height: 1px;
+    background: linear-gradient(to right, rgb(40, 67, 29), #12b912c2);
+  }
+  h3 {
+    text-align: left;
+    padding-left: 28px;
+  }
+  .green {
+    color: #08cb08;
+  }
+  li {
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .small {
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .steps {
+    color: rgb(201, 202, 203);
+    /* text-align: left; */
+  }
+  ul {
+    text-align: left;
+    color: rgb(201, 202, 203);
+    line-height: 2rem;
+  }
+  .certificate {
+    padding-top: 10px;
+    padding-right: 25px;
+    width: 200px;
+  }
+  .list-img {
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .glowing-check-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .glowing-check-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .glowing-check-list li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #08cb08;
+    text-shadow: 0 0 10px #08cb08, 0 0 10px #08cb08, 0 0 15px #08cb08;
+  }
+  .glowing-check-list li:hover {
+    transform: scale(1.1);
+    text-shadow: 0 5px 5px rgba(9, 241, 9, 0.2), 0 10px 10px rgba(8, 203, 8, 0.15),
+    0 15px 15px rgba(8, 203, 8, 0.1);
+  }
+  /* Tablet view */
+  @media (max-width: 1024px) {
+      .card {
+        width: 80%; /* Increase width on smaller screens */
+        top: 180px; /* Adjust vertical position */
+        left: 10%; /* Center the card */
+        padding: 15px; /* Reduce padding */
+      }
+      
+      h2 {
+        font-size: 24px; /* Decrease font size */
+      }
+      .gradient-line{
+          top:100px;
+          left: 110px;
+      }
+      h3.steps {
+        font-size: 18px; /* Slightly smaller font */
+      }
+    
+      .certificate {
+        width: 150px; /* Adjust image size */
+      }
+    
+      .list-img {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align */
+      }
+    
+      .glowing-check-list li {
+        margin-bottom: 15px; /* Increase space between list items */
+      }
+    }
+    
+    /* Mobile view */
+    @media (max-width: 768px) {
+      .card {
+        width: 80%; /* Further increase width for mobile */
+        top: 70px; /* Adjust vertical position */
+        left: 5%; /* Center the card */
+        padding: 7px; /* Further reduce padding */
+      }
+    
+      h2 {
+        font-size: 20px; /* Decrease font size */
+      }
+    
+      h3.steps {
+        font-size: 14px; 
+        padding-left: 4px;/* Decrease font size */
+      }
+    
+      .certificate {
+        width: 120px; /* Adjust image size for mobile */
+      }
+    
+      .glowing-check-list li {
+        font-size: 12px; /* Decrease font size of list items */
+      }
+      .gradient-line{
+          display:none;
+      }
+    }
+    

@@ -1,8 +1,12 @@
 .newsletter-form {
   display: flex;
   flex-direction: row;
+  gap: 0;
 }
-
+.newsletter h3{
+  position: relative;
+  left: -25px;
+}
 .newsletter-form input {
   flex: 1;
   padding: 0.75em;     
@@ -11,6 +15,7 @@
   margin: 0;
   transition: border 0.3s;
   height: 40px;
+  width: 500px;
 }
 
 .newsletter-form input:focus {
@@ -31,7 +36,10 @@
   transition: background-color 0.3s, transform 0.3s;
   margin-left: -20px;
 }
-
+.subscribe-button{
+  position: relative;
+  right: 0px;
+}
 .newsletter-form button:hover {
   background-color: #16b743; 
   transform: scale(1.05); 

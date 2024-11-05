@@ -1,27 +1,39 @@
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  overflow-x: hidden;
+  height: auto;
+  min-height: 100vh;
 }
 
 .benefits-section {
-  padding: 3em 0;
+  position: relative;
+  bottom: -800px;
+  /* padding: 3em 0; */
   background-color: #000;
   color: #fff;
   text-align: center;
-  margin: 10em;
+  padding-left: 0px;
+  margin: 10em 20em;
 }
 
 .benefits-title {
+  position: relative;
+  bottom: 20px;
   font-size: 2em;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
+  margin-top: 0;
 }
 
 .benefit-text {
-  color: #808080;
+  position: relative;
+  top:7px;
+  color: #bcb9b9;
 }
 
 .benefits-list {
@@ -29,7 +41,8 @@ body {
   justify-content: center;
   gap: 2em;
   flex-wrap: wrap;
-  padding: 0 2em;
+  /* padding: 0 10rem; */
+  padding:10px 70px ;
 }
 
 .benefit-item {
@@ -47,6 +60,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
 }
 
 .benefit-item::before {
@@ -80,7 +94,8 @@ body {
 .benefit-title {
   font-size: 1.2em;
   font-weight: bold;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
+  margin-top: 0;
 }
 
 .benefit-points {
@@ -101,8 +116,11 @@ body {
 .footer {
   background: #000;
   color: #ffffff;
-  padding: 0.5em 0;
+  padding: 0.5em;
   text-align: left;
+  position: relative;
+  top: 1300px;
+  left: 0px;
 }
 
 .footer-content {
@@ -111,6 +129,19 @@ body {
   justify-content: space-between;
   max-width: 1200px;
   margin: 2em auto;
+}
+.footer-contact h3{
+  position: relative;
+  top: 0px;
+  right:25px;
+}
+.footer-contact p{
+  position: relative;
+  top:10px;
+}
+.newsletter p{
+  position: relative;
+  top:1px;
 }
 
 .footer-links,
@@ -143,33 +174,55 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   color: #cccccc;
 }
+.footer-bottom p{
+  position: relative;
+  top:1px;
+}
 
 .app {
+  position: absolute;
+  top: 1500px;
+  left:-180px;
   color: white;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 
 .app-title {
-  font-size: 28px;
+  position: relative;
+  left: -18px;
+  bottom:126px;
+  text-align: center;
+  font-size: 32px;
   margin-top: 1rem;
 }
-
+.app-titles{
+  position: relative;
+  text-align: center;
+  font-size: 32px;
+  left: 10px;
+  bottom:-756px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .steps-container {
+  position: relative;
+  bottom: 100px;
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  /* margin-top: 4rem;
+  margin-bottom: 4rem; */
   animation: float 3s ease-in-out infinite;
 }
 
 .step-card {
   width: 180px;
+  background-color: #65656531;
   background-image:'1.jpeg';
   background-size:cover;
   background-position:center;
-  border-radius: 35%;
+  border-radius: 10%;
   padding: 1rem;
   position:relative;
   overflow:hidden;
@@ -200,17 +253,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  height: 400px;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   overflow:hidden;
   position:relative;
-  
+  background-color: #89808010;
+  bottom:-830px;
 }
 
-.card {
-  width: 180px;
-  background-color: #fff;
-
+.cardTest {
+  width: 280px;
+  background-color: #f1e4e4fa;
   color: #333;
   border-radius: 10px;
   overflow: hidden;
@@ -228,16 +282,22 @@ body {
 
 .card-content {
   padding: 1rem;
+  /* background-color: #08CB08; */
 }
 
 .card-title {
   font-size: 1.2rem;
   margin: 0;
+  z-index: 1020;
 }
 
 .card-description {
+  /* display: block; */
   font-size: 0.9rem;
-  color: #666;
+  width:10px;
+  height: 20px;
+  color: #29d335;
+  /* z-index: 2; */
 }
 .card:hover {
   transform: translateY(-10px);

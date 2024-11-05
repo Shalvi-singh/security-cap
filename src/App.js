@@ -6,6 +6,8 @@ import React from "react";
 import BenefitsSection from "./Components/BenefitsSection";
 import Footer from "./Components/Footer";
 import {useEffect} from 'react';
+import Main from './Components/main';
+import SecurityCaptainRole from './Components/role';
 
 function App() {
   const steps = [
@@ -26,9 +28,10 @@ function App() {
     document.body.style.backgroundColor = "black";
   }, []);
   return (
-    
+    <>
+    <Main/>
     <div className="app">
-      <h3 className="app-title">How to Become a Security Captain</h3>
+      <h3 className="app-title">How to Become a Security Captain?</h3>
       <div className="steps-container">
         {steps.map((step, index) => (
           <div key={index} className="step-card">
@@ -40,13 +43,14 @@ function App() {
           </div>
         ))}
       </div>
+      <SecurityCaptainRole/>
       <BenefitsSection/>
-      <h3 className="app-title">Testimonials</h3>
+      <h3 className="app-titles">Testimonials</h3>
       <div className="card-container">
         <div className="moving-cards">
         {cardData.map((card, index) => (
-          <div key={index} className="card">
-            <img src={card.image} alt={card.title} className="card-image" />
+          <div key={index} className="cardTest">
+            <img src={card.image} alt={card.title} className="card-image"/>
             <div className="card-content">
               <h5 className="card-title">{card.title}</h5>
               <p className="card-description">{card.description}</p>
@@ -59,6 +63,7 @@ function App() {
     <FAQ></FAQ>
       <Footer />
     </div>
+    </>
   );
 }
 

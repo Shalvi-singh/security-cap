@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer-content">
       <div className="footer-links">
-        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Links</h3>
+        <h3>&nbsp;&nbsp;&nbsp;Quick Links</h3>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
@@ -19,7 +19,7 @@ const Footer = () => (
         <p>Phone: +123 456 7890</p>
       </div>
       <div className="footer-social">
-        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow Us</h3>
+        <h3>&nbsp;&nbsp;&nbsp;Follow Us</h3>
         <ul className="social-media-icons">
           <li><a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook" /></a></li>
           <li><a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" alt="Twitter" /></a></li>
