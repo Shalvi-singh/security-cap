@@ -1,7 +1,9 @@
 
 import './App.css';
-import SecurityCaptainForm from './components/SecurityCaptainForm.js';
-import FAQ from './components/FAQ.js';
+import SecurityCaptainForm from './Components/SecurityCaptainForm.js';
+import FAQ from './Components/FAQ.js';
+import BenefitsSection from './Components/BenefitsSection.js';
+import Footer from './Components/Footer.js'
 import { useEffect } from 'react';
 
 function App() {
