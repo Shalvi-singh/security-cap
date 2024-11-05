@@ -1,6 +1,5 @@
 
 import './App.css';
-<<<<<<< HEAD
 import SecurityCaptainForm from './SecurityCaptainForm';
 import FAQ from './FAQ';
 import React from "react";
