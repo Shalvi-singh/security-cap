@@ -12,7 +12,7 @@ body {
     max-width: 1000px;
     margin: 50px 0;
     padding: 40px;
-    background-color: #1e1e2f;
+    background-color: #05041cd2;
     color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -34,10 +34,10 @@ body {
 }
 
 .section-title {
-    font-size: 1.5rem;
-    color: #08CB08;
+    font-size: 1.3rem;
+    color: #fcfdfc;
     margin-bottom: 10px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .responsibilities-list, .qualities-list {
@@ -46,7 +46,7 @@ body {
 }
 
 .responsibilities-list li, .qualities-list li {
-    background-color: #333344;
+    background-color: #2e2e3b96;
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 8px;
@@ -55,11 +55,11 @@ body {
 }
 
 .responsibilities-list li:hover, .qualities-list li:hover {
-    background-color: #444466;
+    background-color: #2b2b46;
     transform: scale(1.02);
 }
 
 .responsibilities-list li strong, .qualities-list li strong {
-    color: #ffcc00;
+    color: #4dba37;
     font-weight: bold;
 }

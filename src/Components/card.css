@@ -28,8 +28,8 @@
   }
   .gradient-line {
     position: absolute;
-    bottom: 420px;
-    left: 170px;
+    bottom: 400px;
+    left: 155px;
     width: 70%;
     height: 1px;
     background: linear-gradient(to right, rgb(40, 67, 29), #12b912c2);
