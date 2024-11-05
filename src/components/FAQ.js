@@ -33,6 +33,7 @@ function FAQ() {
 
     return (
         <>
+        <div className='FAQ'>
         <div className="faq-container">
             <h1>Frequently asked questions</h1>
             
@@ -48,7 +49,10 @@ function FAQ() {
                     </div>
                     {activeIndex === index && <div className="faq-answer">{faq.answer}</div>}
                 </div>
+                
             ))}
+        </div>
+        <div className='faq-image'> <img src="faq-image.jpeg" alt="image-loading"></img></div>
         </div>
         </>
     );

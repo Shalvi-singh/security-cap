@@ -7,8 +7,8 @@ body {
 }
 
 .faq-container {
-
-    max-width: 900px;
+    flex:1;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     /*background-color: #333;*/
@@ -19,7 +19,7 @@ body {
 .faq-container h1 {
     
     text-align: center;
-    color: #00ff00;
+    color: #08CB08;
     margin-bottom: 20px;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .faq-icon {
-    color: #00ff00;
+    color: #08CB08;
     font-size: 1.2rem;
 }
 
@@ -63,4 +63,16 @@ body {
     border-top: 1px solid #444;
     color: #ccc;
     font-size: 0.9rem;
+}
+.faq-image {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }

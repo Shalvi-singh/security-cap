@@ -1,7 +1,7 @@
 
 import './App.css';
-import SecurityCaptainForm from './SecurityCaptainForm';
-import FAQ from './FAQ';
+import SecurityCaptainForm from './components/SecurityCaptainForm.js';
+import FAQ from './components/FAQ.js';
 
 function App() {
   return (
