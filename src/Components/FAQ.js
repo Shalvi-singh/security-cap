@@ -32,6 +32,11 @@ function FAQ() {
     };
 
     return (
+<<<<<<< HEAD:src/FAQ.js
+=======
+        <>
+        <div className='FAQ'>
+>>>>>>> 04bd03c759d6229dd8ca264a14d75b2bfb98e8d9:src/Components/FAQ.js
         <div className="faq-container">
             <h1>Frequently Asked Questions</h1>
             {faqs.map((faq, index) => (
@@ -50,8 +55,15 @@ function FAQ() {
                         {faq.answer}
                     </div>
                 </div>
+                
             ))}
         </div>
+<<<<<<< HEAD:src/FAQ.js
+=======
+        <div className='faq-image'> <img src="faq-image.jpeg" alt="image-loading"></img></div>
+        </div>
+        </>
+>>>>>>> 04bd03c759d6229dd8ca264a14d75b2bfb98e8d9:src/Components/FAQ.js
     );
 }
 

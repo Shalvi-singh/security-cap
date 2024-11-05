@@ -1,5 +1,6 @@
 
 import './App.css';
+<<<<<<< HEAD
 import SecurityCaptainForm from './SecurityCaptainForm';
 import FAQ from './FAQ';
 import React from "react";
@@ -8,6 +9,13 @@ import Footer from "./Components/Footer";
 import {useEffect} from 'react';
 import Main from './Components/main';
 import SecurityCaptainRole from './Components/role';
+=======
+import SecurityCaptainForm from './Components/SecurityCaptainForm.js';
+import FAQ from './Components/FAQ.js';
+import BenefitsSection from './Components/BenefitsSection.js';
+import Footer from './Components/Footer.js'
+import { useEffect } from 'react';
+>>>>>>> 04bd03c759d6229dd8ca264a14d75b2bfb98e8d9
 
 function App() {
   const steps = [
