@@ -1,7 +1,8 @@
 
 import './App.css';
-import SecurityCaptainForm from './SecurityCaptainForm';
-import FAQ from './FAQ';
+import SecurityCaptainForm from './components/SecurityCaptainForm.js';
+import FAQ from './components/FAQ.js';
+import { useEffect } from 'react';
 
 function App() {
   const steps = [
