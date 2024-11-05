@@ -5,9 +5,17 @@
 body {
     font-family: Arial, sans-serif;
 }
+.FAQ{
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-between; /* Space between FAQ and image */
+    align-items: center; /* Center items vertically */
+    margin: 20px;
+    gap: 20px; /* Space between FAQ and image containers */
 
+}
 .faq-container {
-    flex:1;
+    width:50%;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -66,14 +74,13 @@ body {
     font-size: 0.9rem;
 }
 .faq-image {
-    flex:1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:50%;
+    
 }
 
 .faq-image img {
+    margin-top: 20px;
     max-width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 8px;
 }
