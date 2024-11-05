@@ -5,6 +5,7 @@ import FAQ from './FAQ';
 import React from "react";
 import BenefitsSection from "./Components/BenefitsSection";
 import Footer from "./Components/Footer";
+import {useEffect} from 'react';
 
 function App() {
   const steps = [
@@ -39,6 +40,7 @@ function App() {
           </div>
         ))}
       </div>
+      <BenefitsSection/>
       <h3 className="app-title">Testimonials</h3>
       <div className="card-container">
         <div className="moving-cards">
@@ -54,11 +56,9 @@ function App() {
       </div>
     </div>
     <SecurityCaptainForm></SecurityCaptainForm>
-    <div className="App">
-    <BenefitsSection />
-    </div>
     <FAQ></FAQ>
-    </>
+      <Footer />
+    </div>
   );
 }
 

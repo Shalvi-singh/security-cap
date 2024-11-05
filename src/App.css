@@ -40,11 +40,10 @@ body {
   max-width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
-<<<<<<< HEAD
+
   background-image:'img.jpeg';
-=======
-  background-image: "img.jpeg";
->>>>>>> d2fe71a20821b38a93d32f65c1641bbde13b8170
+
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
