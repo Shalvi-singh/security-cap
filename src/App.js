@@ -1,18 +1,13 @@
 
 import './App.css';
 import SecurityCaptainForm from './SecurityCaptainForm';
-import FAQ from './FAQ';
 import React from "react";
-import BenefitsSection from "./Components/BenefitsSection";
 import Footer from "./Components/Footer";
 import {useEffect} from 'react';
 import Main from './Components/main';
 import SecurityCaptainRole from './Components/role';
-import SecurityCaptainForm from './Components/SecurityCaptainForm.js';
 import FAQ from './Components/FAQ.js';
 import BenefitsSection from './Components/BenefitsSection.js';
-import Footer from './Components/Footer.js'
-import { useEffect } from 'react';
 
 function App() {
   const steps = [

@@ -11,6 +11,10 @@
     padding-left: 60px;
     padding-right: 50px;
   }
+  .apply-link{
+    text-decoration: none;
+    color: #08cb08;
+  }
   .card:hover {
     transform: scale(1.025);
     box-shadow: 0 0 10px #08cb08, 0 0 10px #08cb08, 0 0 15px #08cb08;

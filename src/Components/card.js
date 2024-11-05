@@ -17,7 +17,7 @@ const PathCard=()=> {
             <li>Transform Your Career with<span className='green'> SecDev </span>Certification.<br></br>
             <span className='small'>
             Complete SecDev Certification with SafeYourWeb's 100% OFF coupon.
-            ( <a href='#'> Click Here to apply</a> )
+            ( <a className="apply-link" href='#'> Click Here to apply</a> )
             </span>
             </li>
             <li>Pass a rigorous interview proces.</li>
