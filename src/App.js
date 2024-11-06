@@ -1,6 +1,6 @@
 
 import './App.css';
-import SecurityCaptainForm from './SecurityCaptainForm';
+import SecurityCaptainForm from './Components/SecurityCaptainForm';
 import React from "react";
 import Footer from "./Components/Footer";
 import {useEffect} from 'react';

@@ -19,7 +19,6 @@ body {
     left: 20px;
     padding-top: 60px;
 }
-<<<<<<< HEAD:src/SecurityCaptainForm.css
 .header {
     text-align: center;
     color: #fff;
@@ -29,14 +28,6 @@ body {
     top: 2800px;
     right:650px;
     font-size: 32px;
-=======
-
-
- h1 {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 20px;
->>>>>>> 04bd03c759d6229dd8ca264a14d75b2bfb98e8d9:src/Components/SecurityCaptainForm.css
 }
 
 form {
@@ -81,12 +72,8 @@ label {
 }
 
 button {
-<<<<<<< HEAD:src/SecurityCaptainForm.css
     /* background-color: #00ff00; */
     background: linear-gradient(85deg, #121010ef, #43f01c73);
-=======
-    background-color: #08CB08;
->>>>>>> 04bd03c759d6229dd8ca264a14d75b2bfb98e8d9:src/Components/SecurityCaptainForm.css
     color: #333;
     margin-left: 30%;
     padding: 10px;
